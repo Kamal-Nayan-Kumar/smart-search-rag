@@ -1,0 +1,11 @@
+# requirements.txt
+langchain
+langchain-google-genai
+langchain-community
+chromadb
+pypdf
+python-dotenv
+streamlit
+sentence-transformers
+google-generativeai
+openai
