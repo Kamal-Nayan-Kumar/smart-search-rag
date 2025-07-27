@@ -37,12 +37,7 @@ An AI-powered document search system that makes it easy to understand insurance 
 
 ### 🔧 Setup Instructions
 
-1. **Create project folder:**
-
-```bash
-mkdir smart-search-rag && cd smart-search-rag
-```
-2. **Clone repository:**
+1. **Clone repository:**
 ```bash
 git clone https://github.com/Kamal-Nayan-Kumar/smart-search-rag.git
 
@@ -50,32 +45,32 @@ cd smart-search-rag
 ```
 Recommended: Create virtual env
 
-3. **Install required packages:**
+2. **Install required packages:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. **Set up environment file:**
+3. **Set up environment file:**
 
 ```bash
 echo "PERPLEXITY_API_KEY=your_key_here" > .env
 ```
 
-5. **Add insurance documents:**
+4. **Add insurance documents:**
 
 ```bash
 mkdir documents
 cp /path/to/your/files.pdf ./documents/
 ```
 
-6. **Run setup script:**
+5. **Run setup script:**
 
 ```bash
 python setup.py
 ```
 
-7. **Start the app:**
+6. **Start the app:**
 
 ```bash
 streamlit run main.py
